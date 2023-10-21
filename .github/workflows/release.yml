@@ -77,7 +77,6 @@ jobs:
 
       - name: Setup Node.js, pnpm and dependencies
         uses: ./.github/actions/setup-pnpm
-        with:
 
       - name: Build
         run: |
